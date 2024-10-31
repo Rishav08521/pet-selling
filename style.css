@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.pet-list {
+    padding: 2rem;
+    text-align: center;
+}
+
+.pet-card {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.pet-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.pet-card h3 {
+    margin: 10px 0;
+}
+
+.purchase-btn, .login-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.purchase-btn:hover, .login-btn:hover {
+    background: #45a049;
+    transform: scale(1.05);
+}
+
+.login-section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.login-section input {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.pet-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+/* Add this to the existing styles.css file */
+
+.about-section {
+    padding: 2rem;
+    text-align: center;
+    background: #e0f7fa;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.contact-btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
